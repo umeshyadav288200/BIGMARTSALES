@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-model = pickle.load(open(r'models\model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 # Function to predict sales
 def predict_sales(features):
